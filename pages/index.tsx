@@ -38,6 +38,9 @@ const Index = () => {
         <Link href={"/framer-motion/steps"}>
           <LinkStyle>steps</LinkStyle>
         </Link>
+        <Link href={"/framer-motion/typing"}>
+          <LinkStyle>typing</LinkStyle>
+        </Link>
       </Section>
     </Container>
   );
