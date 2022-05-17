@@ -16,6 +16,7 @@ const LinkStyle = styled.a`
   border-radius: 6px;
   border: 1px solid #cccccc;
   padding: 12px;
+  margin-bottom: 14px;
   cursor: pointer;
   box-shadow: 4px 4px 8px #cccccc;
 `;
@@ -33,6 +34,9 @@ const Index = () => {
         <SectionTitle>framer-motion</SectionTitle>
         <Link href={"/framer-motion/tabs"}>
           <LinkStyle>tabs</LinkStyle>
+        </Link>
+        <Link href={"/framer-motion/steps"}>
+          <LinkStyle>steps</LinkStyle>
         </Link>
       </Section>
     </Container>
