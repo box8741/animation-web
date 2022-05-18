@@ -41,6 +41,9 @@ const Index = () => {
         <Link href={"/framer-motion/typing"}>
           <LinkStyle>typing</LinkStyle>
         </Link>
+        <Link href={"/framer-motion/inView"}>
+          <LinkStyle>inView</LinkStyle>
+        </Link>
       </Section>
     </Container>
   );
