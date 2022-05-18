@@ -44,6 +44,9 @@ const Index = () => {
         <Link href={"/framer-motion/inView"}>
           <LinkStyle>inView</LinkStyle>
         </Link>
+        <Link href={"/framer-motion/sharedElement"}>
+          <LinkStyle>sharedElement</LinkStyle>
+        </Link>
       </Section>
     </Container>
   );
