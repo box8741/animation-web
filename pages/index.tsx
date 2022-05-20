@@ -47,6 +47,9 @@ const Index = () => {
         <Link href={"/framer-motion/sharedElement"}>
           <LinkStyle>sharedElement</LinkStyle>
         </Link>
+        <Link href={"/framer-motion/autoScrollMotion"}>
+          <LinkStyle>autoScrollMotion</LinkStyle>
+        </Link>
       </Section>
     </Container>
   );
