@@ -53,6 +53,9 @@ const Index = () => {
         <Link href={"/framer-motion/slideBar"}>
           <LinkStyle>slideBar</LinkStyle>
         </Link>
+        <Link href={"/framer-motion/dragToReorder"}>
+          <LinkStyle>dragToReorder</LinkStyle>
+        </Link>
       </Section>
     </Container>
   );
