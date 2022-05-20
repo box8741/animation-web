@@ -50,6 +50,9 @@ const Index = () => {
         <Link href={"/framer-motion/autoScrollMotion"}>
           <LinkStyle>autoScrollMotion</LinkStyle>
         </Link>
+        <Link href={"/framer-motion/slideBar"}>
+          <LinkStyle>slideBar</LinkStyle>
+        </Link>
       </Section>
     </Container>
   );

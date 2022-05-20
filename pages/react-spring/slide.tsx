@@ -1,6 +1,6 @@
 import React from "react";
 import { a, useSpring, config } from "@react-spring/web";
-import useMeasure from "react-use-measure";
+import { useMeasure } from "react-use";
 import { useDrag } from "@use-gesture/react";
 import styled from "@emotion/styled";
 import _ from "lodash";
@@ -51,7 +51,7 @@ const ShowSection = styled(a.div)`
 `;
 
 const Slide = ({ children, addFn, deleteFn }: SlideProps) => {
-  const [ref, { width, height }] = useMeasure();
+  const [ref, { width, height }] = useMeasure<HTMLDivElement>();
 
   const [{ x, scale, bg, location }, api] = useSpring(() => ({
     x: 0,
